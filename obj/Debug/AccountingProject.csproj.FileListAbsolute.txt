@@ -1,0 +1,6 @@
+C:\Users\christine.horvath\source\repos\AccountingProject\AccountingProject\bin\Debug\AccountingProject.exe.config
+C:\Users\christine.horvath\source\repos\AccountingProject\AccountingProject\bin\Debug\AccountingProject.exe
+C:\Users\christine.horvath\source\repos\AccountingProject\AccountingProject\bin\Debug\AccountingProject.pdb
+C:\Users\christine.horvath\source\repos\AccountingProject\AccountingProject\obj\Debug\AccountingProject.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\AccountingProject\AccountingProject\obj\Debug\AccountingProject.exe
+C:\Users\christine.horvath\source\repos\AccountingProject\AccountingProject\obj\Debug\AccountingProject.pdb
