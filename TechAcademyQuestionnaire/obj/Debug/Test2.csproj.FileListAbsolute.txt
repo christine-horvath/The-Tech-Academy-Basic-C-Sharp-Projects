@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\Test2\Test2\obj\Debug\Test2.csprojAssemblyReference.cache
+C:\Users\christine.horvath\source\repos\Test2\Test2\obj\Debug\Test2.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\Test2\Test2\bin\Debug\Test2.exe.config
+C:\Users\christine.horvath\source\repos\Test2\Test2\bin\Debug\Test2.exe
+C:\Users\christine.horvath\source\repos\Test2\Test2\bin\Debug\Test2.pdb
+C:\Users\christine.horvath\source\repos\Test2\Test2\obj\Debug\Test2.exe
+C:\Users\christine.horvath\source\repos\Test2\Test2\obj\Debug\Test2.pdb
