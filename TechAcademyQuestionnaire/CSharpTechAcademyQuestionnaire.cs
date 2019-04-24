@@ -7,22 +7,6 @@ namespace Test2
     {
         static void Main(string[] args)
         {
-            //console.writeline("what is your name?");
-            //string yourname = console.readline();
-            //console.writeline("your name is: " + yourname);
-            //console.readline();
-
-            //Console.WriteLine("What is your favorite number?");
-            //string favoriteNumber = Console.ReadLine();
-            //int favNum = Convert.ToInt32(favoriteNumber);
-            //int total = favNum + 5;
-            //Console.WriteLine("Your favorite number plus 5 is: " + total);
-            //Console.ReadLine();
-
-            //bool isStudying = false;
-            //byte hoursWorkes = 42;
-            //char middleInitial = 'M';
-            //char questionMark = '\u2103';
 
             string answer;
             bool needHelp = false;
