@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\AnonIncomeComparison\AnonIncomeComparison\bin\Debug\AnonIncomeComparison.exe.config
+C:\Users\christine.horvath\source\repos\AnonIncomeComparison\AnonIncomeComparison\bin\Debug\AnonIncomeComparison.exe
+C:\Users\christine.horvath\source\repos\AnonIncomeComparison\AnonIncomeComparison\bin\Debug\AnonIncomeComparison.pdb
+C:\Users\christine.horvath\source\repos\AnonIncomeComparison\AnonIncomeComparison\obj\Debug\AnonIncomeComparison.csprojAssemblyReference.cache
+C:\Users\christine.horvath\source\repos\AnonIncomeComparison\AnonIncomeComparison\obj\Debug\AnonIncomeComparison.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\AnonIncomeComparison\AnonIncomeComparison\obj\Debug\AnonIncomeComparison.exe
+C:\Users\christine.horvath\source\repos\AnonIncomeComparison\AnonIncomeComparison\obj\Debug\AnonIncomeComparison.pdb
