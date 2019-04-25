@@ -49,9 +49,9 @@ namespace Shipping_App
             }
 
             int dimensions = (width + height + length);
-            decimal quote = ((dimensions * weight)/100);
-            //Console.WriteLine(string s = quote.ToString("C0"));
-            Console.WriteLine("The estimated cost for shipping your package is: " + (quote.ToString("C0")));         
+            decimal quoteA = ((dimensions * weight));
+            decimal quoteB = (decimal)(quoteA / 100);
+            Console.WriteLine("The estimated cost for shipping your package is: " + (quoteB.ToString("C2")));
 
             Console.ReadLine();
 
