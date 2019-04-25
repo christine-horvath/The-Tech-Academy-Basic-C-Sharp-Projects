@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\String-Project\String-Project\bin\Debug\String-Project.exe.config
+C:\Users\christine.horvath\source\repos\String-Project\String-Project\bin\Debug\String-Project.exe
+C:\Users\christine.horvath\source\repos\String-Project\String-Project\bin\Debug\String-Project.pdb
+C:\Users\christine.horvath\source\repos\String-Project\String-Project\obj\Debug\String-Project.csprojAssemblyReference.cache
+C:\Users\christine.horvath\source\repos\String-Project\String-Project\obj\Debug\String-Project.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\String-Project\String-Project\obj\Debug\String-Project.exe
+C:\Users\christine.horvath\source\repos\String-Project\String-Project\obj\Debug\String-Project.pdb
