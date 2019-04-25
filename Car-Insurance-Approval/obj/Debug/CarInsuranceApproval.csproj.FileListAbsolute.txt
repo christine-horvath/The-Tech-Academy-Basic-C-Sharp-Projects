@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\CarInsuranceApproval\CarInsuranceApproval\bin\Debug\CarInsuranceApproval.exe.config
+C:\Users\christine.horvath\source\repos\CarInsuranceApproval\CarInsuranceApproval\bin\Debug\CarInsuranceApproval.exe
+C:\Users\christine.horvath\source\repos\CarInsuranceApproval\CarInsuranceApproval\bin\Debug\CarInsuranceApproval.pdb
+C:\Users\christine.horvath\source\repos\CarInsuranceApproval\CarInsuranceApproval\obj\Debug\CarInsuranceApproval.csprojAssemblyReference.cache
+C:\Users\christine.horvath\source\repos\CarInsuranceApproval\CarInsuranceApproval\obj\Debug\CarInsuranceApproval.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\CarInsuranceApproval\CarInsuranceApproval\obj\Debug\CarInsuranceApproval.exe
+C:\Users\christine.horvath\source\repos\CarInsuranceApproval\CarInsuranceApproval\obj\Debug\CarInsuranceApproval.pdb
