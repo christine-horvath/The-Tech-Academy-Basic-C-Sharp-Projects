@@ -10,21 +10,7 @@ using System.Threading.Tasks;
 //    {
 //        static void Main(string[] args)
 //        {
-//            //string name = "Christine";
-//            //string quote = "The man said, \\Hello\" Christine. \n Hello on a new line \n \t Hello on a tab.";
-//            //string fileName = @"C:\Users\Jesse";
-
-//            //bool trueOrFalse = name.Contains("s");
-//            ////reassign variable
-//            //trueOrFalse = name.EndsWith("s");
-//            //Console.WriteLine(trueOrFalse);
-//            //Console.ReadLine();
-
-//            //StringBuilder sb = new StringBuilder();
-//            //sb.Append("My name is Christine.");
-//            //Console.WriteLine(sb);
-//            //Console.ReadLine();
-
+//   
 //            //Concatenate three strings.
 
 //            //Convert a string to uppercase.
