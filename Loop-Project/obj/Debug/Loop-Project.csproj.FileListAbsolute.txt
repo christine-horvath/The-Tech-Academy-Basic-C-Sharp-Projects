@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\Loop-Project\Loop-Project\obj\Debug\Loop-Project.csprojAssemblyReference.cache
+C:\Users\christine.horvath\source\repos\Loop-Project\Loop-Project\obj\Debug\Loop-Project.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\Loop-Project\Loop-Project\bin\Debug\Loop-Project.exe.config
+C:\Users\christine.horvath\source\repos\Loop-Project\Loop-Project\bin\Debug\Loop-Project.exe
+C:\Users\christine.horvath\source\repos\Loop-Project\Loop-Project\bin\Debug\Loop-Project.pdb
+C:\Users\christine.horvath\source\repos\Loop-Project\Loop-Project\obj\Debug\Loop-Project.exe
+C:\Users\christine.horvath\source\repos\Loop-Project\Loop-Project\obj\Debug\Loop-Project.pdb
