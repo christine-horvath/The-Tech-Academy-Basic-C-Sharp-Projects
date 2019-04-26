@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\Arrays and Lists\Arrays and Lists\obj\Debug\Arrays and Lists.csprojAssemblyReference.cache
+C:\Users\christine.horvath\source\repos\Arrays and Lists\Arrays and Lists\obj\Debug\Arrays and Lists.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\Arrays and Lists\Arrays and Lists\bin\Debug\Arrays and Lists.exe.config
+C:\Users\christine.horvath\source\repos\Arrays and Lists\Arrays and Lists\bin\Debug\Arrays and Lists.exe
+C:\Users\christine.horvath\source\repos\Arrays and Lists\Arrays and Lists\bin\Debug\Arrays and Lists.pdb
+C:\Users\christine.horvath\source\repos\Arrays and Lists\Arrays and Lists\obj\Debug\Arrays and Lists.exe
+C:\Users\christine.horvath\source\repos\Arrays and Lists\Arrays and Lists\obj\Debug\Arrays and Lists.pdb

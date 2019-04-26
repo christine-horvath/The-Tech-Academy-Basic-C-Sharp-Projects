@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\arraysandlists2\arraysandlists2\obj\Debug\arraysandlists2.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\arraysandlists2\arraysandlists2\bin\Debug\arraysandlists2.exe.config
+C:\Users\christine.horvath\source\repos\arraysandlists2\arraysandlists2\bin\Debug\arraysandlists2.exe
+C:\Users\christine.horvath\source\repos\arraysandlists2\arraysandlists2\bin\Debug\arraysandlists2.pdb
+C:\Users\christine.horvath\source\repos\arraysandlists2\arraysandlists2\obj\Debug\arraysandlists2.exe
+C:\Users\christine.horvath\source\repos\arraysandlists2\arraysandlists2\obj\Debug\arraysandlists2.pdb
+C:\Users\christine.horvath\source\repos\arraysandlists2\arraysandlists2\obj\Debug\arraysandlists2.csprojAssemblyReference.cache
