@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\Classes and Objects\Classes and Objects\obj\Debug\Classes and Objects.csprojAssemblyReference.cache
+C:\Users\christine.horvath\source\repos\Classes and Objects\Classes and Objects\obj\Debug\Classes and Objects.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\Classes and Objects\Classes and Objects\bin\Debug\Classes and Objects.exe.config
+C:\Users\christine.horvath\source\repos\Classes and Objects\Classes and Objects\bin\Debug\Classes and Objects.exe
+C:\Users\christine.horvath\source\repos\Classes and Objects\Classes and Objects\bin\Debug\Classes and Objects.pdb
+C:\Users\christine.horvath\source\repos\Classes and Objects\Classes and Objects\obj\Debug\Classes and Objects.exe
+C:\Users\christine.horvath\source\repos\Classes and Objects\Classes and Objects\obj\Debug\Classes and Objects.pdb
