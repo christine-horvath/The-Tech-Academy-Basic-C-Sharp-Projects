@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\Drill 111\Drill 111\obj\Debug\Drill Program.csprojAssemblyReference.cache
+C:\Users\christine.horvath\source\repos\Drill 111\Drill 111\obj\Debug\Drill Program.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\Drill 111\Drill 111\bin\Debug\Drill 111.exe.config
+C:\Users\christine.horvath\source\repos\Drill 111\Drill 111\bin\Debug\Drill 111.exe
+C:\Users\christine.horvath\source\repos\Drill 111\Drill 111\bin\Debug\Drill 111.pdb
+C:\Users\christine.horvath\source\repos\Drill 111\Drill 111\obj\Debug\Drill 111.exe
+C:\Users\christine.horvath\source\repos\Drill 111\Drill 111\obj\Debug\Drill 111.pdb
