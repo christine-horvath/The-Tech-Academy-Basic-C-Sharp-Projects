@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\Coffee Class App\Coffee Class App\bin\Debug\Coffee Class App.exe.config
+C:\Users\christine.horvath\source\repos\Coffee Class App\Coffee Class App\bin\Debug\Coffee Class App.exe
+C:\Users\christine.horvath\source\repos\Coffee Class App\Coffee Class App\bin\Debug\Coffee Class App.pdb
+C:\Users\christine.horvath\source\repos\Coffee Class App\Coffee Class App\obj\Debug\Class App.csprojAssemblyReference.cache
+C:\Users\christine.horvath\source\repos\Coffee Class App\Coffee Class App\obj\Debug\Class App.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\Coffee Class App\Coffee Class App\obj\Debug\Coffee Class App.exe
+C:\Users\christine.horvath\source\repos\Coffee Class App\Coffee Class App\obj\Debug\Coffee Class App.pdb
