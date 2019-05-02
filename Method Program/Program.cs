@@ -11,32 +11,19 @@ namespace Drill_Program
         static void Main(string[] args)
         {
            Console.WriteLine("Please enter an integer");
-           int UserInput = Convert.ToInt32(Console.ReadLine());
- 
-           Result result = new Result();
+           int number1 = Convert.ToInt32(Console.ReadLine());
+            int number2 = 9;
+            int number3 = 8;
+            int number4 = 17;
 
-           Console.WriteLine("Your number + values from list one");
+            StoredValues ob = new StoredValues();
 
-            foreach (StoredValues storedvalues in result.StoredValue)
-                 {
-                
-                     Console.WriteLine(UserInput + storedvalues.NumberOne);
-
-                 }
-
-            Console.WriteLine("Your number * values from list one");
-
-            foreach (StoredValues storedvalues in result.StoredValue)
-                 {  
-                       Console.WriteLine(UserInput * storedvalues.NumberOne);
-                 }
-
-            Console.WriteLine("Your number / values from list one");
-
-            foreach (StoredValues storedvalues in result.StoredValue)
-                 {
-                     Console.WriteLine(UserInput / storedvalues.NumberOne);
-                 }
+            int Monkey1 = ob.Monkey(number1, number2);
+            Console.WriteLine("The sum of your number + 9 is " + Monkey1);
+            int Monkey2 = ob.Monkey(number1, number2, number3);
+            Console.WriteLine("The sum of your number + 9 + 8 is " + Monkey2);
+            int Monkey3 = ob.Monkey(number1, number2, number3, number4);
+            Console.WriteLine("The sum of your number + 9 + 8 + 17 is " + Monkey3);
             Console.ReadLine();
         }
     }

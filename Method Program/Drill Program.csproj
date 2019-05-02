@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="StoredValue.cs" />
     <Compile Include="Result.cs" />
-    <Compile Include="Methods.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
