@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\intInput\intInput\bin\Debug\intInput.exe.config
+C:\Users\christine.horvath\source\repos\intInput\intInput\bin\Debug\intInput.exe
+C:\Users\christine.horvath\source\repos\intInput\intInput\bin\Debug\intInput.pdb
+C:\Users\christine.horvath\source\repos\intInput\intInput\obj\Debug\intInput.csprojAssemblyReference.cache
+C:\Users\christine.horvath\source\repos\intInput\intInput\obj\Debug\intInput.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\intInput\intInput\obj\Debug\intInput.exe
+C:\Users\christine.horvath\source\repos\intInput\intInput\obj\Debug\intInput.pdb
