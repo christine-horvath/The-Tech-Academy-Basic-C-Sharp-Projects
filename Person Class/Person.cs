@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Person_Class
+{
+    public class Person
+    {
+
+        //first name, last name
+        public List<string> FullName { get; set; }
+        public List<string> FirstName { get; set; }
+        public List<string> LastName { get; set; }
+
+
+        public void SayName()
+        {
+            foreach (string firstname in FirstName)
+            {
+                foreach (string lastname in LastName)
+                {
+                    FullName.Add(firstname + " " + lastname);
+                    Console.WriteLine(FullName);
+
+                }
+            }
+        }
+    }
+}

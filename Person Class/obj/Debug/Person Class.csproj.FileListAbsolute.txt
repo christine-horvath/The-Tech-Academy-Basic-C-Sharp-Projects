@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\Person Class\Person Class\bin\Debug\Person Class.exe.config
+C:\Users\christine.horvath\source\repos\Person Class\Person Class\bin\Debug\Person Class.exe
+C:\Users\christine.horvath\source\repos\Person Class\Person Class\bin\Debug\Person Class.pdb
+C:\Users\christine.horvath\source\repos\Person Class\Person Class\obj\Debug\Person Class.csprojAssemblyReference.cache
+C:\Users\christine.horvath\source\repos\Person Class\Person Class\obj\Debug\Person Class.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\Person Class\Person Class\obj\Debug\Person Class.exe
+C:\Users\christine.horvath\source\repos\Person Class\Person Class\obj\Debug\Person Class.pdb
