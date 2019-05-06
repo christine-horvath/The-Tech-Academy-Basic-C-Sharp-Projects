@@ -12,10 +12,9 @@ namespace Person_Class
         //5. Call the superclass method SayName() on the Employee object.
         static void Main(string[] args)
         {
-
-            Person person = new Person();
-            person.FirstName.Add("Sample");
-            person.LastName.Add("Student");
+            Employee person = new Employee();
+            person.FirstName = new List<string>() { "Sample" };
+            person.LastName = new List<string>() { "Student" };
             person.SayName();
             Console.ReadLine();
 

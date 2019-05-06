@@ -14,6 +14,8 @@ namespace Person_Class
         public List<string> FirstName { get; set; }
         public List<string> LastName { get; set; }
 
+        //string firstname = "Sample";
+        //string lastname = "Student";
 
         public void SayName()
         {
@@ -21,8 +23,8 @@ namespace Person_Class
             {
                 foreach (string lastname in LastName)
                 {
-                    FullName.Add(firstname + " " + lastname);
-                    Console.WriteLine(FullName);
+
+                    Console.WriteLine("Name: [" + firstname + " " + lastname + "]");
 
                 }
             }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Person_Class
 {
-    class Employee: Person
+    public class Employee: Person
     {
         public int Id { get; set; }
     }
