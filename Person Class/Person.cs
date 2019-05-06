@@ -10,13 +10,10 @@ namespace Person_Class
     {
 
         //first name, last name
-        public List<string> FullName { get; set; }
         public List<string> FirstName { get; set; }
         public List<string> LastName { get; set; }
 
-        //string firstname = "Sample";
-        //string lastname = "Student";
-
+        //
         public void SayName()
         {
             foreach (string firstname in FirstName)
