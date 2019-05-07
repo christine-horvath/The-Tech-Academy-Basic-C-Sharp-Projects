@@ -12,19 +12,36 @@ namespace Person_Class
         //5. Call the superclass method SayName() on the Employee object.
         static void Main(string[] args)
         {
-            Employee employee = new Employee();
-            Employee employee1 = new Employee();
-            employee.Id = 4;
-            employee1.Id = 3;
-            if (employee.Id == employee1.Id)
+            
+            Employee<string> item = new Employee<string>();
+            Employee<int> itemA = new Employee<int>();
+            item.Things = new List<string>() { "puppies", "pebbles", "polar bears", "please" };
+            itemA.Things = new List<int>() { 33, 21, 43, 9 };
+
+            foreach (string thing in item.Things)
             {
-                Console.WriteLine("The Employee ID's are the same.");
+                foreach (int thingA in itemA.Things)
+                {
+                    Console.WriteLine(thing + thingA);
+
+                }
             }
-            else
-            {
-                Console.WriteLine("The Employee ID's are not the same.");
-            }
+            
             Console.ReadLine();
+
+            //Employee employee = new Employee();
+            //Employee employee1 = new Employee();
+            //employee.Id = 4;
+            //employee1.Id = 3;
+            //if (employee.Id == employee1.Id)
+            //{
+            //    Console.WriteLine("The Employee ID's are the same.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The Employee ID's are not the same.");
+            //}
+            //Console.ReadLine();
             
 
             //Employee quit = new Employee();

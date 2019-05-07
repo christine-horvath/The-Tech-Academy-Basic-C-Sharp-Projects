@@ -28,12 +28,5 @@ namespace Person_Class
                 }
             }
         }
-        public virtual void EmployeeIDs()
-        {
-            foreach (int employee in Employees)
-            {
-                Employees.Add(employee);
-            }
-        }
     }
 }
