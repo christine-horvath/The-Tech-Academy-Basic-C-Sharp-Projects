@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lambda_Expressions
 {
-    class Class1
+    class Employee
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
