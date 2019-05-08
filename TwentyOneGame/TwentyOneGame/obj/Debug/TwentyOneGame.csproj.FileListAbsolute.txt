@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\TwentyOneGame\TwentyOneGame\bin\Debug\TwentyOneGame.exe.config
+C:\Users\christine.horvath\source\repos\TwentyOneGame\TwentyOneGame\bin\Debug\TwentyOneGame.exe
+C:\Users\christine.horvath\source\repos\TwentyOneGame\TwentyOneGame\bin\Debug\TwentyOneGame.pdb
+C:\Users\christine.horvath\source\repos\TwentyOneGame\TwentyOneGame\obj\Debug\TwentyOneGame.csprojAssemblyReference.cache
+C:\Users\christine.horvath\source\repos\TwentyOneGame\TwentyOneGame\obj\Debug\TwentyOneGame.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\TwentyOneGame\TwentyOneGame\obj\Debug\TwentyOneGame.exe
+C:\Users\christine.horvath\source\repos\TwentyOneGame\TwentyOneGame\obj\Debug\TwentyOneGame.pdb
