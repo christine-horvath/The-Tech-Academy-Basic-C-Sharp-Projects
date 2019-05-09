@@ -46,6 +46,7 @@
     <Compile Include="DogNutrition.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserAgeInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

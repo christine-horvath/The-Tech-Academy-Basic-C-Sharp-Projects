@@ -43,18 +43,52 @@ namespace FileIO
             //3.Exceptions must be handled using "try .. catch".
             //4.Display appropriate error messages if user enters zero or negative numbers.
             //5.Display a general message if exception caused by anything else.
+            //strings, i <= 0, anything else. 
 
             DateTime currentTime = DateTime.Now;
-            Console.WriteLine("Please enter your age.");
-            int userAge = Convert.ToInt32(Console.ReadLine());
-            Console.Write("According to the age you entered, you were born in ");
-            DateTime yearBorn = currentTime.AddYears(-userAge);
-            Console.Write(yearBorn.Year);
 
+            bool validAnswer = false;
+            int age = 0;
+            while (!validAnswer)
+            {
+                Console.WriteLine("Please enter your age");
+                //casts from string to int - if it doesnt succeed, bet = 0
+                validAnswer = int.TryParse(Console.ReadLine(), out age);
+                if (!validAnswer)
+                {
+                    Console.WriteLine("Please enter positive integers ONLY, no decimals or letters.");
+                    Console.ReadLine();
+                    return;
+                }
+                else if (age <= 0)
+                {
+                    Console.WriteLine("Please enter positive integers only, no decimals or letters." );
+                    Console.ReadLine();
+                    return;
+                }
+                else
+                {
+                    DateTime yearBorn = currentTime.AddYears(-age);
+                    Console.WriteLine("Based on your age you must have been born in " + yearBorn.Year + ".");
+                    Console.ReadLine();
+                }
 
-            Console.ReadLine();
-
-
+            }
         }
     }
 }
+
+
+
+           
+
+
+
+
+            
+        
+
+
+        
+
+
