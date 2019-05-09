@@ -22,13 +22,25 @@ namespace FileIO
             //Console.Write(File.ReadAllText(@"C:\Users\Christine.Horvath\logs\log.txt"));
             //Console.ReadLine();
 
-            DateTime currentTime = DateTime.Now;            
-            Console.WriteLine(DateTime.Now);
+            //DateTime currentTime = DateTime.Now;            
+            //Console.WriteLine(DateTime.Now);
+            ////Console.ReadLine();
+            //Console.WriteLine("Please enter a number.");
+            //int userInput = Convert.ToInt32(Console.ReadLine());
+            //DateTime plusUserInputHours = currentTime.AddHours(userInput);
+            //Console.WriteLine("In " + userInput + " hours, the time will be " + string.Format("{0}", plusUserInputHours + "."));
             //Console.ReadLine();
-            Console.WriteLine("Please enter a number.");
-            int userInput = Convert.ToInt32(Console.ReadLine());
-            DateTime plusUserInputHours = currentTime.AddHours(userInput);
-            Console.WriteLine("In " + userInput + " hours, the time will be " + string.Format("{0}", plusUserInputHours + "."));
+
+            //1.Create a const variable
+            //2.Create a variable using the keyword "var".
+            //3.Chain two constructors together. - in DogNutrition class
+
+            const string lulasFood = "Blue Buffalo Freedom";
+            var lulasTreats = "Dentasticks";
+
+            
+
+
             Console.ReadLine();
 
 
