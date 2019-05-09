@@ -66,11 +66,15 @@ namespace FileIO
                     Console.ReadLine();
                     return;
                 }
-                else
+                else if (validAnswer)
                 {
                     DateTime yearBorn = currentTime.AddYears(-age);
                     Console.WriteLine("Based on your age you must have been born in " + yearBorn.Year + ".");
                     Console.ReadLine();
+                }
+                else
+                {
+                    throw new Exception();            
                 }
 
             }
