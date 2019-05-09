@@ -35,10 +35,21 @@ namespace FileIO
             //2.Create a variable using the keyword "var".
             //3.Chain two constructors together. - in DogNutrition class
 
-            const string lulasFood = "Blue Buffalo Freedom";
-            var lulasTreats = "Dentasticks";
+            //const string lulasFood = "Blue Buffalo Freedom";
+            //var lulasTreats = "Dentasticks";
 
-            
+            //1.Ask the user for his age.
+            //2.Display the year user born.
+            //3.Exceptions must be handled using "try .. catch".
+            //4.Display appropriate error messages if user enters zero or negative numbers.
+            //5.Display a general message if exception caused by anything else.
+
+            DateTime currentTime = DateTime.Now;
+            Console.WriteLine("Please enter your age.");
+            int userAge = Convert.ToInt32(Console.ReadLine());
+            Console.Write("According to the age you entered, you were born in ");
+            DateTime yearBorn = currentTime.AddYears(-userAge);
+            Console.Write(yearBorn.Year);
 
 
             Console.ReadLine();
