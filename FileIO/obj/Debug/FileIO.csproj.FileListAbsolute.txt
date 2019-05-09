@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\FileIO\FileIO\bin\Debug\FileIO.exe.config
+C:\Users\christine.horvath\source\repos\FileIO\FileIO\bin\Debug\FileIO.exe
+C:\Users\christine.horvath\source\repos\FileIO\FileIO\bin\Debug\FileIO.pdb
+C:\Users\christine.horvath\source\repos\FileIO\FileIO\obj\Debug\FileIO.csprojAssemblyReference.cache
+C:\Users\christine.horvath\source\repos\FileIO\FileIO\obj\Debug\FileIO.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\FileIO\FileIO\obj\Debug\FileIO.exe
+C:\Users\christine.horvath\source\repos\FileIO\FileIO\obj\Debug\FileIO.pdb
