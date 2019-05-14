@@ -25,5 +25,7 @@ namespace quoteGeneratorX.Models
         public Nullable<bool> HasDUI { get; set; }
         public Nullable<int> NumberOfTickets { get; set; }
         public Nullable<bool> FullCoverage { get; set; }
+        public int Quote { get; set; }
+
     }
 }

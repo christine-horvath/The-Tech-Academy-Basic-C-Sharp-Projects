@@ -96,32 +96,39 @@ namespace quoteGeneratorX.Controllers
                     driverdata.HasDUI = hasDUI;
                     driverdata.NumberOfTickets = numberofTickets;
                     driverdata.FullCoverage = fullCoverage;
+                    driverdata.Quote = Convert.ToInt32(quote); 
 
                     db.driverDatas.Add(driverdata);
                     db.SaveChanges();
 
-                    var quoteeVms = new List<QuoteReturnVM>();
-                    foreach (var quoteeVM in quoteeVms)
-                    {
-                        quoteeVM.Firstname = driverdata.FirstName;
-                        quoteeVM.LastName = driverdata.LastName;
-                        quoteeVM.EmailAddress = driverdata.EmailAddress;
-                        quoteeVms.Add(quoteeVM);
+                    //var quotees = (from c in db.driverDatas
+                    //                  where c.EmailAddress == emailAddress
+                    //                  select c).ToList();
+                    //var quoteeVms = new List<QuoteReturnVM>();
+                    //foreach (var quotee in quotees)
+                    //{
+                    //    var quoteeVm = new QuoteReturnVM();
+                    //    quoteeVm.Id = quotee.Id;
+                    //    quoteeVm.Firstname= quotee.FirstName;
+                    //    quoteeVm.LastName = quotee.LastName;
+                    //    quoteeVm.EmailAddress = quotee.EmailAddress;
+                    //    quoteeVm.Quote = quotee.Quote;
+                    //    quoteeVms.Add(quoteeVm);
                             
-                    }
+                    //}
 
-                    return View(quoteeVms);                    
+                    return View(driverdata);                    
                 } 
             }        
         }
-        public ActionResult Quote(int Id)
-        {
-            using (quoteGenEntities db = new quoteGenEntities())
-            {
-                var applicant = db.driverDatas.Find(Id);
-            }
-            return RedirectToAction("Success");
-        }
+        //public ActionResult Quote(int Id)
+        //{
+        //    using (quoteGenEntities db = new quoteGenEntities())
+        //    {
+        //        var applicant = db.driverDatas.Find(Id);
+        //    }
+        //    return RedirectToAction("Success");
+        //}
     }
 }
 
