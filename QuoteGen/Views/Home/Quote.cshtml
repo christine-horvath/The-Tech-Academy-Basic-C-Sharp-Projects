@@ -1,0 +1,35 @@
+﻿@using QuoteGen.Models
+
+    <div class=" row row-no-gutters m-4">
+        <div class="card col-sm-11 col-md-9 col-lg-5 mx-auto shadow">
+            <div class="card-header text-center">
+                <h5 class="m-0">Quotes</h5>
+            </div>
+            <div class="card-body">
+                @foreach (var driverdata in Model)
+                {
+                    using (Html.BeginForm("Quote", "Admin", FormMethod.Post))
+                    {
+                        //
+                        <input type="hidden" name="Id" value="@driverdata.Id" />
+                        <div class="row mb-3">
+                            <div class="col-2">
+                                @driverdata.FirstName
+                            </div>
+                            <div class="col-2">
+                                @driverdata.LastName
+                            </div>
+                            <div class="col-2">
+                                @driverdata.quote
+                            </div>
+                            <div class="col-2">
+                                <button type="submit" class="btn btn-danger btn-block">
+                                    Accept Quote
+                                </button>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
