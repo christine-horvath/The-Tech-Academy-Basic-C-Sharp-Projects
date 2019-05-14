@@ -6,7 +6,7 @@
             <h5 class="m-0">Enter your information to generate an instant quote</h5>
         </div>
         <div class="card-body">
-            @using (Html.BeginForm("driverData", "Home", FormMethod.Post))
+            @using (Html.BeginForm("Quote", "Home", FormMethod.Post))
             {
                 <div class="row">
                     <!-- changing col-md-12 will change # of boxes per row-->
@@ -26,7 +26,7 @@
                         <input name="carYear" type="text" class="form-control" placeholder="Year of Car" />
                     </center>
                     <center class=" form-group col-md-12">
-                        <input name="carMake" type="text" class="form-control" placeholder="Make" />
+                        <input name="carMake" type="text" class="form-control" placeholder="Make"/>
                     </center>
                     <center class=" form-group col-md-12">
                         <input name="carModel" type="text" class="form-control" placeholder="Model" />

@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace QuoteGen
+namespace quoteGeneratorX
 {
     public class FilterConfig
     {

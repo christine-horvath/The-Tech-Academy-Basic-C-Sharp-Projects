@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace QuoteGen.ViewModels
+namespace quoteGeneratorX.ViewModels
 {
     public class ApplicantVM
     {
@@ -11,6 +11,6 @@ namespace QuoteGen.ViewModels
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
         public int Id { get; set; }
-
+        public int Quote { get; internal set; }
     }
 }

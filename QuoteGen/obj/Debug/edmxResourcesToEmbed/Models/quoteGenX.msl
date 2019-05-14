@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="quoteGen2ModelStoreContainer" CdmEntityContainer="quoteGen2Entities">
+    <EntitySetMapping Name="driverDatas">
+      <EntityTypeMapping TypeName="quoteGen2Model.driverData">
+        <MappingFragment StoreEntitySet="driverData">
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="CarYear" ColumnName="CarYear" />
+          <ScalarProperty Name="CarMake" ColumnName="CarMake" />
+          <ScalarProperty Name="CarModel" ColumnName="CarModel" />
+          <ScalarProperty Name="HasDUI" ColumnName="HasDUI" />
+          <ScalarProperty Name="NumberOfTickets" ColumnName="NumberOfTickets" />
+          <ScalarProperty Name="FullCoverage" ColumnName="FullCoverage" />
+          <ScalarProperty Name="Quote" ColumnName="Quote" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

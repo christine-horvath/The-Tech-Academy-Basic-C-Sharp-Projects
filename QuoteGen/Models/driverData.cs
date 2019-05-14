@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace QuoteGen.Models
+namespace quoteGeneratorX.Models
 {
     using System;
     using System.Collections.Generic;
@@ -18,15 +18,13 @@ namespace QuoteGen.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
-        public Nullable<System.DateTime> DateOfBirth { get; set; }
-        public Nullable<int> CarYear { get; set; }
+        public System.DateTime DateOfBirth { get; set; }
+        public int CarYear { get; set; }
         public string CarMake { get; set; }
         public string CarModel { get; set; }
-        public bool DuiRadio { get; set; }
-        public Nullable<int> NumberOfTickets { get; set; }
-        public bool FullCovRadio { get; set; }
-        public Nullable<System.DateTime> Quote { get; set; }
-
+        public bool HasDUI { get; set; }
+        public int NumberOfTickets { get; set; }
+        public bool FullCoverage { get; set; }
+        public int Quote { get; set; }
     }
 }
-

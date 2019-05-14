@@ -1,5 +1,6 @@
-﻿using QuoteGen.Models;
-using QuoteGen.ViewModels;
+﻿
+using quoteGeneratorX.Models;
+using quoteGeneratorX.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,10 +15,10 @@ namespace QuoteGen.Controllers
         public ActionResult Index()
         {
 
-            using (quoteGeneratorEntities db = new quoteGeneratorEntities())
+            using (quoteGen2Entities db = new quoteGen2Entities())
             {
                 var applicants = (from c in db.driverDatas
-                                  where c.Quote != null
+                                  where c.Id < 1000
                                   select c).ToList();
                 var applicantVms = new List<ApplicantVM>();
                 foreach (var applicant in applicants)
@@ -34,10 +35,10 @@ namespace QuoteGen.Controllers
         }
         public ActionResult Quote(int Id)
         {
-            using (quoteGeneratorEntities db = new quoteGeneratorEntities())
+            using (quoteGen2Entities db = new quoteGen2Entities())
             {
                 var applicant = db.driverDatas.Find(Id);
-                applicant.Quote = DateTime.Now;
+                applicant.Quote = 0;
                 db.SaveChanges();
             }
             return RedirectToAction("Index");

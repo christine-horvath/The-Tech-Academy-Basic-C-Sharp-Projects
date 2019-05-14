@@ -1,4 +1,4 @@
-﻿@using QuoteGen.ViewModels
+﻿@using quoteGeneratorX.ViewModels;
 @model List<ApplicantVM>
 
 <div class=" row row-no-gutters m-4">
@@ -11,7 +11,7 @@
             {
                 using (Html.BeginForm("Quote", "Admin", FormMethod.Post))
                 {
-                    <input type="hidden" name="Id" value="@applicant.Id"/>
+                    <input type="hidden" name="Id" value="@applicant.Id" />
                     <div class="row mb-3">
                         <div class="col-2">
                             @applicant.Firstname

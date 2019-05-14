@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace QuoteGen
+namespace quoteGeneratorX
 {
     public class BundleConfig
     {
