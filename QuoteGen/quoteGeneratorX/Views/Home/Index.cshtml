@@ -1,0 +1,54 @@
+﻿<div class="row">
+    <!--changing col-sm-12 etc will change size of box-->
+    <div class="card col-sm-10 col-md-8 col-lg-4 mx-auto shadow">
+        <div class="card-header text-center">
+            <!--m-0 changes margin, text-center centers text-->
+            <h5 class="m-0">Enter your information to generate an instant quote</h5>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("Quote", "Home", FormMethod.Post))
+            {
+                <div class="row">
+                    <!-- changing col-md-12 will change # of boxes per row-->
+                    <center class=" form-group col-md-12">
+                        <input name="firstName" type="text" class="form-control" placeholder="First Name" />
+                    </center>
+                    <center class=" form-group col-md-12">
+                        <input name="lastName" type="text" class="form-control" placeholder="Last Name" />
+                    </center>
+                    <center class=" form-group col-md-12">
+                        <input name="emailAddress" type="email" class="form-control" placeholder="E-Mail Address" />
+                    </center>
+                    <center class=" form-group col-md-12">
+                        <input name="dateOfBirth" type="text" class="form-control" placeholder="YYYY-MM-DD" />
+                    </center>
+                    <center class=" form-group col-md-12">
+                        <input name="carYear" type="text" class="form-control" placeholder="Year of Car" />
+                    </center>
+                    <center class=" form-group col-md-12">
+                        <input name="carMake" type="text" class="form-control" placeholder="Make"/>
+                    </center>
+                    <center class=" form-group col-md-12">
+                        <input name="carModel" type="text" class="form-control" placeholder="Model" />
+                    </center>
+                    <center class="form-group col-md-12">
+                        Do you have any DUI's?<br />
+                        <input type="radio" id="true" name="DUI" value="true" checked="checked"> Yes<br>
+                        <input type="radio" id="false"name="DUI" value="false"> No<br>
+                    </center>
+                    <center class=" form-group col-md-12">
+                        How many speeding tickets are active on your license as of today?
+                        <input name="numberOfTickets" type="number" class="form-control" placeholder="0" min="0" />
+                    </center>
+                    <center class="form-group col-md-12">
+                        Would you like full coverage or liability insurance? <br />
+                        <input type="radio" id="true" name="fullcov" value="true" checked="checked"> Yes<br>
+                        <input type="radio" id="false" name="fullcov" value="false"> No<br>
+                    </center>
+                    <button type="submit" class="btn btn-block btn-primary">Generate Quote</button>
+                </div>
+
+            }
+        </div>
+    </div>
+</div>
