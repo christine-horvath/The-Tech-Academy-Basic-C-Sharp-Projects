@@ -17,8 +17,9 @@ namespace quoteGeneratorX.Controllers
         }
 
         [HttpPost]
-        public ActionResult Quote(string firstname, string lastName, string emailAddress, DateTime dateOfBirth, int carYear, string carMake, string carModel, bool hasDUI, int numberofTickets, bool fullCoverage)
+        public ActionResult Quote(string firstname, string lastName, string emailAddress, DateTime dateOfBirth, int carYear, string carMake, string carModel, bool hasDUI, double? numberofTickets, bool fullCoverage)
         {
+            Convert.ToDouble(numberofTickets);
 
             if (string.IsNullOrEmpty(firstname) || string.IsNullOrEmpty(lastName) || string.IsNullOrEmpty(emailAddress) || string.IsNullOrEmpty(carMake) || string.IsNullOrEmpty(carModel))
             {
@@ -26,9 +27,10 @@ namespace quoteGeneratorX.Controllers
             }
             else
             {
-                double quote = 50;
+                double? quote = 50;
                 var today = DateTime.Today;
                 int age = today.Year - dateOfBirth.Year;
+                
 
 
                 //----------------------------------
@@ -68,7 +70,7 @@ namespace quoteGeneratorX.Controllers
                 //----------------------------------------------
                 if (numberofTickets > 0)
                 {
-                    quote += (numberofTickets * 10);
+                    quote += (numberofTickets * 10);                    
                 }
                 //----------------------------------------------
                 if (hasDUI == true)
@@ -82,7 +84,7 @@ namespace quoteGeneratorX.Controllers
                     quote *= 1.5;
                 }
 
-                using (quoteGenEntities db = new quoteGenEntities())
+                using (quoteGen2Entities1 db = new quoteGen2Entities1())
                 {
                     
                     var driverdata = new driverData();

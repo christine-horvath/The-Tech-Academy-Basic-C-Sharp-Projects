@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="quoteGenModelStoreContainer" CdmEntityContainer="quoteGenEntities">
+  <EntityContainerMapping StorageEntityContainer="quoteGen2ModelStoreContainer" CdmEntityContainer="quoteGen2Entities1">
     <EntitySetMapping Name="driverDatas">
-      <EntityTypeMapping TypeName="quoteGenModel.driverData">
+      <EntityTypeMapping TypeName="quoteGen2Model.driverData">
         <MappingFragment StoreEntitySet="driverData">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="FirstName" ColumnName="FirstName" />

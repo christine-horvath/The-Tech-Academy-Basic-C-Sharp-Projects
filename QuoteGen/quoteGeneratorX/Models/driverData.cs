@@ -23,9 +23,8 @@ namespace quoteGeneratorX.Models
         public string CarMake { get; set; }
         public string CarModel { get; set; }
         public Nullable<bool> HasDUI { get; set; }
-        public Nullable<int> NumberOfTickets { get; set; }
+        public Nullable<double> NumberOfTickets { get; set; }
         public Nullable<bool> FullCoverage { get; set; }
         public int Quote { get; set; }
-
     }
 }

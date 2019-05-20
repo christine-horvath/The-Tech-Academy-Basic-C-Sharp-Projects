@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="quoteGenModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+<Schema Namespace="quoteGen2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityType Name="driverData">
     <Key>
       <PropertyRef Name="Id" />
@@ -7,16 +7,16 @@
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="EmailAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EmailAddress" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="BirthDate" Type="DateTime" Precision="3" />
     <Property Name="CarYear" Type="Int32" />
     <Property Name="CarMake" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="CarModel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="HasDUI" Type="Boolean" />
-    <Property Name="NumberOfTickets" Type="Int32" />
+    <Property Name="NumberOfTickets" Type="Double" />
     <Property Name="FullCoverage" Type="Boolean" />
   </EntityType>
-  <EntityContainer Name="quoteGenEntities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="quoteGen2Entities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="driverDatas" EntityType="Self.driverData" />
   </EntityContainer>
 </Schema>

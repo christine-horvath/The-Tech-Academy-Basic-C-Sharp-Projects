@@ -13,10 +13,10 @@ namespace quoteGeneratorX.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class quoteGenEntities : DbContext
+    public partial class quoteGen2Entities1 : DbContext
     {
-        public quoteGenEntities()
-            : base("name=quoteGenEntities")
+        public quoteGen2Entities1()
+            : base("name=quoteGen2Entities1")
         {
         }
     

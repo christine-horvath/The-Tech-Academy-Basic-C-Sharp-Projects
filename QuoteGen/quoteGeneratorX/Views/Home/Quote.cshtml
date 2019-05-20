@@ -2,7 +2,7 @@
 @Styles.Render("~/Content/css")
 
 <div class=" row row-no-gutters m-4">
-    <div class="card col-sm-11 col-md-9 col-lg-5 mx-auto shadow">
+    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
         <div class="card-header text-center">
             <h5 class="m-0">Quotes</h5>
         </div>
@@ -12,19 +12,23 @@
                 <input type="hidden" name="Id" value="@Model.Id" />
                 <div class="row mb-3">
                     <div class="col-2">
+                        First Name <br />
                         @Model.FirstName
                     </div>
                     <div class="col-2">
+                        Last Name <br />
                         @Model.LastName
                     </div>
-                    <div class="col-5">
+                    <div class="col-4">
+                        E-Mail Address <br />
                         @Model.EmailAddress
                     </div>
-                    <div class="col-5">
-                        @Model.Quote
+                    <div class="col-2">
+                        Quote Amount <br />
+                        $@Model.Quote
 
                     </div>
-                    <div class="col-3">
+                    <div class="col-2">
                         <button type="submit" class="btn btn-danger btn-block">
                             View Quote
                         </button>

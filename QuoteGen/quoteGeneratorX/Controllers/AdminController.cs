@@ -15,7 +15,7 @@ namespace QuoteGen.Controllers
         public ActionResult Index()
         {
 
-            using (quoteGenEntities db = new quoteGenEntities())
+            using (quoteGen2Entities1 db = new quoteGen2Entities1())
             {
                 var applicants = (from c in db.driverDatas
                                   where c.Id < 1000
@@ -35,7 +35,7 @@ namespace QuoteGen.Controllers
         }
         public ActionResult Quote(int Id)
         {
-            using (quoteGenEntities db = new quoteGenEntities())
+            using (quoteGen2Entities1 db = new quoteGen2Entities1())
             {
                 var applicant = db.driverDatas.Find(Id);
                 applicant.Id = Id;
