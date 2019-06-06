@@ -1,0 +1,7 @@
+C:\Users\christine.horvath\source\repos\technical questions\technical questions\bin\Debug\technical questions.exe.config
+C:\Users\christine.horvath\source\repos\technical questions\technical questions\bin\Debug\technical questions.exe
+C:\Users\christine.horvath\source\repos\technical questions\technical questions\bin\Debug\technical questions.pdb
+C:\Users\christine.horvath\source\repos\technical questions\technical questions\obj\Debug\technical questions.csprojAssemblyReference.cache
+C:\Users\christine.horvath\source\repos\technical questions\technical questions\obj\Debug\technical questions.csproj.CoreCompileInputs.cache
+C:\Users\christine.horvath\source\repos\technical questions\technical questions\obj\Debug\technical questions.exe
+C:\Users\christine.horvath\source\repos\technical questions\technical questions\obj\Debug\technical questions.pdb
